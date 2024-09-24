@@ -1,17 +1,38 @@
 
 1. Eksekusi seluruh profile yang ada : 
+
 a. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut : 
 echo “Profile dari /etc/profile” 
+![image](https://github.com/user-attachments/assets/bb5b4f9f-163a-4281-986c-0694fa3e312e)
+![image](https://github.com/user-attachments/assets/73088f21-b8c0-4d0e-b3ed-0918b31ffe78)
+
+![image](https://github.com/user-attachments/assets/eeda353e-bc38-4523-ad39-1817c6fef0e5)
+
 b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu : 
+
 /home/stD02001/.bash_profile 
+
 /home/. stD02001/.bash_login 
+
 /home/mahasiswa/.profile 
+
 /home/mahasiswa/.bashrc 
+
 Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap 
 file tersebut, cantumkan instruksi echo, misalnya pada /home/ mahasiswa/.bash_profile : 
 echo “Profile dari .bash_profile” 
 Lakukan hal yang sama untuk file lainnya, sesuaikan tampilan dengan nama file yang 
 bersangkutan. 
+
+-/home/stD02001/.bash_profile 
+
+![image](https://github.com/user-attachments/assets/a0e4e9be-56c3-4bf3-a20b-4044c6a7eba3)
+![image](https://github.com/user-attachments/assets/b47ae4eb-da90-4af8-a9d0-2e58df6eaccb)
+
+![image](https://github.com/user-attachments/assets/fc3ae74d-7305-4578-83a2-cdd320f4df81)
+
+
+
 c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut: 
 $ su mahasiswa 
 $ exit 
