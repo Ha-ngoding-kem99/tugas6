@@ -234,10 +234,10 @@ d. Ulangi instruksi pada history bufer nomor 150
 
 $ !150 
 
-![image](https://github.com/user-attachments/assets/d1264dc6-d2eb-48be-bcf5-af0491470094)
+![image](https://github.com/user-attachments/assets/6300306a-8d20-4933-9d3c-82099f563e20)
 
 e. Ulangi instruksi dengan prefix “ls” 
 
 $ !ls
 
-![image](https://github.com/user-attachments/assets/224e3c71-c7ab-46a6-a547-239b9c7eabaf)
+![image](https://github.com/user-attachments/assets/18bfc409-7040-4748-b31a-83562f5b0847)
