@@ -120,6 +120,9 @@ echo “Program p1”
 
 ls –l 
 
+![image](https://github.com/user-attachments/assets/f151442d-1f12-4eb2-8ee7-3903ae1c5e9e)
+![image](https://github.com/user-attachments/assets/6f7f6cb8-b88e-489d-8632-ffc4aec0dd34)
+
 p2.sh 
 
 #! /bin/bash 
@@ -127,6 +130,9 @@ p2.sh
 echo “Program p2” 
 
 who 
+
+![image](https://github.com/user-attachments/assets/40ffa8b3-f6e2-4e50-818e-bc5cb30f1292)
+![image](https://github.com/user-attachments/assets/47bee1b3-c51b-49f5-b79a-e6333ba18fc8)
 
 p3.sh 
 
@@ -136,33 +142,70 @@ echo “Program p3”
 
 ps x 
 
+![image](https://github.com/user-attachments/assets/e972cf2c-03dc-4e94-8143-62d5962a7486)
+![image](https://github.com/user-attachments/assets/3354756a-87f7-4b37-91fd-4957c914b36d)
+
 b. Jalankan script tersebut sebagai berikut : 
+
 $ ./p1.sh ; ./p3.sh ; ./p2.sh 
+
+![image](https://github.com/user-attachments/assets/ea64d7e6-6a88-4e17-8c07-df03fba6c54c)
+
 $ ./p1.sh & 
+
+![image](https://github.com/user-attachments/assets/e7f97df1-6fae-4e48-8b56-beb8bccfbe83)
+
 $ ./p1.sh $ ./p2.sh & ./p3.sh & 
+
+![image](https://github.com/user-attachments/assets/b0eb379d-e603-466f-829f-57382ed5ca88)
+
 $ ( ./p1.sh ; ./p3.sh ) & 
 
+![image](https://github.com/user-attachments/assets/1b8bbafa-d6f1-4cde-82c1-7ff4c57be2d8)
+
 5. Jobs 
+
 a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, 
 setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil.
+
 #!/bin/bash 
+
 while [ true ] 
+
 do 
+
 date >> hasil 
+
 sleep 10 
+
 done 
+
+![image](https://github.com/user-attachments/assets/5e17896c-28dd-4ea8-9047-ed7b39e39611)
+
 b. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background 
 sebagai berikut : 
+
 $ jobs 
+
 $ find / -print > files 2>/dev/null & 
+
 $ jobs 
+
+![image](https://github.com/user-attachments/assets/25ba1380-cc35-4a34-b227-8ab1f317346d)
+
 c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke 
 background 
+
 $ fg %1 
+
 $ bg 
+
 d. Stop program background dengan utilitas kil 
 $ ps x 
 $ kill [Nomor PID] 
+
+![image](https://github.com/user-attachments/assets/a360c079-4881-4310-a603-3ef8e0528cec)
+![image](https://github.com/user-attachments/assets/f205e83d-90f4-4584-9d78-1ce646b9aeaa)
 
 6. History 
 a. Ganti nilai HISTSIZE dari 1000 menjadi 20 
