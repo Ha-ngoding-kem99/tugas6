@@ -1,4 +1,4 @@
-
+# M.Hakeem Alqardhawi 09011282328072 SK3C
 1. Eksekusi seluruh profile yang ada : 
 
 a. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut : 
