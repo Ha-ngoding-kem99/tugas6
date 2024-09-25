@@ -63,38 +63,79 @@ $ exit
 Jelaskan perbedaan kedua utilitas tersebut. 
 
 2. Prompt String (PS) 
+
 a. Edit file .bash_profile, ganti prompt PS1 dengan ‘>’. Instruksi export diperlukan dengan 
 parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell 
+
 PS1=‟> „ 
+
 export PS1 
+
+![image](https://github.com/user-attachments/assets/e2a23251-d900-4e88-b58a-295070004373)
+
 b. Eksperimen hasil PS1 :
+
 $ PS1=“\! > “ 
+
 69 > PS1=”\d > “ 
+
 Mon Sep 23 > PS1=”\t > “ 
+
 10:10:20 > PS1=”Saya=\u > “ 
+
 Saya=mahasiswa > PS1=”\w >” 
+
 ~ > PS1=\h >” 
 
+![image](https://github.com/user-attachments/assets/4fa31bd3-4c6f-4e94-8ee7-38e69aa11be0)
+
 3. Logout 
+
 Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout 
+
 Echo “Terima kasih atas sesi yang diberikan”
+
 Sleep 5 
+
 clear 
 
+![image](https://github.com/user-attachments/assets/fb0f5e4b-7847-4664-8f7b-f5f8f807895c)
+![image](https://github.com/user-attachments/assets/34abb21d-1ee4-47bc-9370-e2032df4f533)
+
+![image](https://github.com/user-attachments/assets/2bd34617-2f28-4849-a590-9f78c62a4c47)
+
+![image](https://github.com/user-attachments/assets/6d660de5-b4ee-46b9-a1a8-88c2ffbeddb8)
+
+![image](https://github.com/user-attachments/assets/81d10e91-efb3-4af0-86b9-a030e576e05c)
+
 4. Bash script 
+
 a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing : 
+
 p1.sh 
+
 #! /bin/bash 
+
 echo “Program p1” 
+
 ls –l 
+
 p2.sh 
+
 #! /bin/bash 
+
 echo “Program p2” 
+
 who 
+
 p3.sh 
+
 #! /bin/bash 
+
 echo “Program p3” 
+
 ps x 
+
 b. Jalankan script tersebut sebagai berikut : 
 $ ./p1.sh ; ./p3.sh ; ./p2.sh 
 $ ./p1.sh & 
