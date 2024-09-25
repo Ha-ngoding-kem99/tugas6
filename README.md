@@ -8,15 +8,7 @@ echo “Profile dari /etc/profile”
 
 ![image](https://github.com/user-attachments/assets/eeda353e-bc38-4523-ad39-1817c6fef0e5)
 
-b. Asumsi nama anda stD02001, maka edit semua profile yang ada yaitu : 
-
-/home/stD02001/.bash_profile 
-
-/home/. stD02001/.bash_login 
-
-/home/mahasiswa/.profile 
-
-/home/mahasiswa/.bashrc 
+b. Asumsi nama anda stD02001, maka edit semua profile yang ada 
 
 Ganti nama /home/mahasiswa dengan nama anda sendiri. Pada setiap 
 file tersebut, cantumkan instruksi echo, misalnya pada /home/ mahasiswa/.bash_profile : 
@@ -31,14 +23,43 @@ bersangkutan.
 
 ![image](https://github.com/user-attachments/assets/fc3ae74d-7305-4578-83a2-cdd320f4df81)
 
+-/home/. stD02001/.bash_login 
 
+![image](https://github.com/user-attachments/assets/dada8fd5-5593-46a2-876c-077b955aa74b)
+![image](https://github.com/user-attachments/assets/bba68842-3c4c-4e17-917a-d871b15de7ba)
+
+![image](https://github.com/user-attachments/assets/225878fa-8eea-460f-adc3-b67283222aef)
+
+-/home/mahasiswa/.profile 
+
+![image](https://github.com/user-attachments/assets/90601023-b0a3-413f-acfa-37550a7b6251)
+![image](https://github.com/user-attachments/assets/7fa9a68e-b8f8-4e33-a430-0d03037d2efa)
+
+![image](https://github.com/user-attachments/assets/6bfd5935-44e1-4605-82c5-4d4deaf30099)
+
+-/home/mahasiswa/.bashrc 
+
+![image](https://github.com/user-attachments/assets/af46ebe0-8162-4e7a-afc5-a1c20e8825fe)
+![image](https://github.com/user-attachments/assets/2ae2b082-c2a7-4bd3-b5ca-5fda6927f4d2)
+
+![image](https://github.com/user-attachments/assets/26de372a-265b-43f8-bb1e-af25e326eea6)
 
 c. Jalankan instruksi subtitute user, kemudian keluar dengan perintah exit sebagai berikut: 
+
 $ su mahasiswa 
+
 $ exit 
+
+![image](https://github.com/user-attachments/assets/57e9b366-da69-477a-b1e7-73d4db6dc652)
+
 kemudian gunakan opsi – sebagai berikut : 
-$ su – mahasiswa 
+
+$ su – mahasiswa
+
 $ exit 
+
+![image](https://github.com/user-attachments/assets/20ffc67e-7179-4d7e-a6e5-05fbe498b56d)
+
 Jelaskan perbedaan kedua utilitas tersebut. 
 
 2. Prompt String (PS) 
