@@ -208,15 +208,36 @@ $ kill [Nomor PID]
 ![image](https://github.com/user-attachments/assets/f205e83d-90f4-4584-9d78-1ce646b9aeaa)
 
 6. History 
+
 a. Ganti nilai HISTSIZE dari 1000 menjadi 20 
+
 $ HISTSIZE=20 
+
 $ h 
+
+![image](https://github.com/user-attachments/assets/29884e6b-c5cb-476d-92b6-3e0b8d8c62dc)
+
 b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir
 dilakukan 
+
 $ !-5 
+
+![image](https://github.com/user-attachments/assets/507315da-b89b-442a-b617-d986f87406c8)
+
 c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer 
+
 $ !! 
+
+![image](https://github.com/user-attachments/assets/45ee23cf-e9e4-43ad-ae78-8c4cf4462630)
+
 d. Ulangi instruksi pada history bufer nomor 150 
+
 $ !150 
+
+![image](https://github.com/user-attachments/assets/d1264dc6-d2eb-48be-bcf5-af0491470094)
+
 e. Ulangi instruksi dengan prefix “ls” 
+
 $ !ls
+
+![image](https://github.com/user-attachments/assets/224e3c71-c7ab-46a6-a547-239b9c7eabaf)
